@@ -13,10 +13,12 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
             child: Column(
           children: <Widget>[
-            CircleAvatar(
-              //radius: 50.0,
-              backgroundImage: Image (image : AssetImage("images/avatar_cp_big.jpg")),
+            Center(
+              child: CircleAvatar(
+              radius: 50.0,
+              backgroundImage: AssetImage('images/rida.jpg'), 
             ),
+            )
           ],
         )),
       ),
